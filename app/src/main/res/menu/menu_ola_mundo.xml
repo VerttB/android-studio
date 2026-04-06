@@ -15,9 +15,9 @@
         />
 
     <item
-        android:id="@+id/toolbar"
-        android:title="@string/ola_mundo"
-        android:orderInCategory="100"
-        app:showAsAction="never"
-        />
+        android:id="@+id/btntolinear"
+        android:title="@string/linear_page"
+        android:orderInCategory="10">
+
+    </item>
 </menu>

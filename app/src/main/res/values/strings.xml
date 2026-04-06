@@ -4,4 +4,8 @@
     <string name="clique_aqui">Clique Aqui</string>
     <string name="ola_mundo">Olá Mundo</string>
     <string name="toolbar_teste">toolbar teste</string>
+    <string name="nome">Nome</string>
+    <string name="insira_seu_nome">Insira seu Nome</string>
+    <string name="ok">Ok</string>
+    <string name="linear_page">Linear Page</string>
 </resources>

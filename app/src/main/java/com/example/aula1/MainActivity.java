@@ -19,8 +19,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+//        setContentView(R.layout.linearlayout);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
     }
 
     @Override
@@ -36,6 +38,16 @@ public class MainActivity extends AppCompatActivity {
 
         if(id == R.id.menu){
             Log.i("TAG", "Settings");
+            setContentView(R.layout.activity_main);
+            Toolbar toolbar = findViewById(R.id.toolbar);
+            setSupportActionBar(toolbar);
+            return true;
+        }
+
+        if(id == R.id.btntolinear){
+            setContentView(R.layout.linearlayout);
+            Toolbar toolbar = findViewById(R.id.toolbar);
+            setSupportActionBar(toolbar);
             return true;
         }
         return super.onOptionsItemSelected(item);
