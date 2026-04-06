@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aula 1</string>
+    <string name="oi_cainan">Oi Cainan!</string>
+    <string name="clique_aqui">Clique Aqui</string>
+    <string name="ola_mundo">Olá Mundo</string>
+    <string name="toolbar_teste">toolbar teste</string>
+</resources>
