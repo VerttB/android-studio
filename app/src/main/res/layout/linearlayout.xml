@@ -24,12 +24,15 @@
             android:text="@string/nome"/>
 
         <EditText
-            android:id="@+id/nome"
+
+            android:id="@+id/edit_text_id"
             android:layout_width="271dp"
             android:layout_height="wrap_content"
             android:labelFor="@+id/nome"
-            android:text="@string/insira_seu_nome" />
+
+             />
         <Button
+            android:id="@+id/edit_btn"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
